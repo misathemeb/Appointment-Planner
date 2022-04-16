@@ -46,7 +46,6 @@ Room for improvement:
 
 * Create slide out card for newly added contact or appointment
 * Refactor logic to minify
-* Consider using React or Angular
 
 To do:
 
