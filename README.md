@@ -32,6 +32,9 @@
 ## Screenshots & Schema
 
 ![schema](https://static-assets.codecademy.com/skillpaths/react-redux/appointments-components.png)
+![addcontact](https://user-images.githubusercontent.com/91221861/163689191-186cc279-3c0d-43d4-a909-aeb1d1cbfbf3.png)
+![contactpicker](https://user-images.githubusercontent.com/91221861/163689196-5742a5be-70fa-4f6f-ab92-6d86a31cdfe8.png)
+![apptcard](https://user-images.githubusercontent.com/91221861/163689198-5ce88dd0-7935-4ccf-b2d3-87b327dd1b6a.png)
 
 ## Project Status
 
