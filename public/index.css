@@ -1,0 +1,155 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+/*   line-height: calc(1em + 0.5rem); /* testing, proceed with caution, doesn't inherit */ 
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Allow percentage-based heights in app */
+html, body {
+  height: 100%;
+  
+}
+
+/* Typography */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Remove built-in form typography styles */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Avoid text overflows*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+#root {
+  padding: 2.5em;
+  font-family: 'Roboto', sans-serif;
+  background-color: #e0cae6;
+
+}
+
+nav > a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  color: #000000;
+  margin-right: 30.5px;
+  text-decoration-line: none;
+}
+
+nav > a.active {
+  text-decoration-line: underline;
+}
+
+nav {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #979797;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+}
+
+section {
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #979797;
+  margin: 20px 0;
+}
+
+input[type="submit"] {
+  
+  background: #5f1775;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.25rem;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  width: 30%;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1em;
+  margin-bottom: 0px;
+}
+
+input,
+select {
+  font-family: 'Roboto', sans-serif;
+  background: #ffffff;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  padding: 7px 9.5px 9px 9.5px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.tile {
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.tile.tile-title {
+  font-weight: bold;
+}
+
+.tile-container {
+  margin-bottom: 20px;
+}
