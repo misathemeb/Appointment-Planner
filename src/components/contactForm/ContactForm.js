@@ -46,7 +46,7 @@ export const ContactForm = ({
         onChange={handleEmail}
         placeholder='Enter email'
       />
-      <input type='submit' value='ADD CONTACT' />
+      <input type='submit' value='Add contact' />
     </form>
   );
 };

@@ -24,6 +24,12 @@ html, body {
 /* Typography */
 body {
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 1em;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -103,6 +109,7 @@ h2 {
 }
 
 section {
+  max-width: 600px;
 }
 
 hr {
@@ -117,11 +124,11 @@ input[type="submit"] {
   border-radius: 20px;
   color: #ffffff;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1rem;
   border: none;
   outline: none;
-  padding: 10px 0;
-  width: 30%;
+  padding: 5px 0;
+  width: 40%;
   font-family: 'Roboto', sans-serif;
   margin-top: 1em;
   margin-bottom: 0px;
